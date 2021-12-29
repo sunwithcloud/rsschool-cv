@@ -1,0 +1,389 @@
+h1, h2, nav, ul, li, main, img, p, pre, code, footer, div {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #12141D;
+	color: #ffffff;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+	display: flex;
+	flex-basis: content;
+}
+
+.header_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_logo {
+	margin-right: 50px;
+}
+
+.header_logo-main {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 45px;
+	color: #ffffff;
+	transition: 1s;
+}
+
+.header_logo-main:hover {
+	transform: scale(1.2);
+}
+
+.nav {
+	color: #ffffff;
+	padding: 14px 0px 0px 0px;
+	margin-right: 50px;
+}
+
+.header_button {
+	color: #ffffff;
+}
+
+
+.nav_list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav_link {
+	text-decoration: none;
+	font-family: Poppins, sans-serif ;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 10px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.nav_link:hover {
+	color:aqua;
+	font-weight: bold;
+}
+
+.header_button {
+	width: 157px;
+	height: 53px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	border-color: #3498db;
+	box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+	transition: all 150ms ease-in-out;
+}
+
+.header_button:hover {
+	box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.link_button {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.main_block_about {
+	margin-bottom: 20px;
+}
+
+.main_block_contacts {
+	margin-bottom: 20px;
+}
+
+.about_text {
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.photo_about-me {
+	width: 212px;
+	height: 212px;
+	border-radius: 100px 0px 0px 0px;
+	transition: 1s;
+	max-width: 100%;
+}
+
+.photo_about-me:hover {
+	transform: scale(1.);
+}
+
+.full_list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portrait {
+	padding: 0px 0px 0px 30px;
+	list-style: none;
+}
+
+.list_about {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.contacts_desc {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.contacts_desc a:hover {
+	color:aqua;
+	font-weight: bold;
+}
+
+.contacts_desc a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main_block_skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.skills_desc {
+	list-style-image: url(/image/Tick_Mark_icon-icons.com_69146.png);
+}
+
+.skills_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.skills_desc {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main_code_example {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.code_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.main_projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.project_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.project_desc {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+	list-style: circle;
+}
+
+.project_link {
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.main_experience {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.experience_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.experience_desc {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+	list-style: circle;
+}
+
+.main_education {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.education_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.education_desc {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main_english {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.english_title {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 75px;
+}
+
+.english_text {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.footer {
+	background-color: gainsboro;
+	width: 100%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 75px;
+
+}
+
+.footer_example {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo_rs {
+	background-image: url(/assets/rs_school_js.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 120px;
+	height: 50px;
+	font-size: 0;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.header_container  {
+		display: flex;
+    	flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.photo_about-me {
+		width: auto;
+		height: auto;
+	}
+
+
+	.header_button {
+		margin-top: 25px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.nav_list {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.photo_about-me {
+		width: auto;
+		height: auto;
+	}
+	
+	.header_button {
+		margin-top: 25px;
+	}
+
+}
