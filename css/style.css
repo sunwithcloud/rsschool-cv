@@ -340,7 +340,7 @@ body {
 }
 
 .logo_rs {
-	background-image: url(./assets/rs_school_js.svg);
+	background-image: url(/rsschool-cv/assets/rs_school_js.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 120px;
